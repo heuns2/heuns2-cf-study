@@ -7,7 +7,7 @@
 ## 1. Default CF Push 
 
 ```
-$ cf push APP-NAME -p SPRING-BOOT.jar
+$ cf push APP-NAME -p SPRING-BOOT.jar  
 ```
 - Application 명은 PAS 환경 내에 Unique 해야 하고, 만약 Application 명을 동일 하게 할 경우 Route를 변경해야 한다. 
 - Application 명에 _를 사용할 경우 자동으로 -으로 변경되어 Push 된다.
