@@ -25,7 +25,7 @@ $ cf push APP-NAME -p SPRING-BOOT.jar
     OK # development space에 user로 인하여 App Instance가 생성 된다.
 
     Creating route my-app-1234.shared-domain.example.com... 
-    OK # Route가 생성 된다.
+    OK # Route가 생성 된다.  
 
     Binding my-app-1234.shared-domain.example.com to my-app-1234...
     OK # Route와 도메인이 Bind 된다.
