@@ -10,7 +10,7 @@
 - Pivotal Cloud Foundry에서 실행하는 Application이 Crash, Stop 상태로 변하게 되면 Application이 Start되고 변경한 Local Disk를 Platform에서 회수하고 Crash, Stop에서 Restage/Restart시 새로운 Local Disk로 Application이 실행 된다.
 
 ### 1.2. 동일한 Application의 복수 Instance 사이의 Local File System 공유 하지 않음
-- Pivotal Cloud Foundry에서 실행하는 Application은 복수개의 Instance를 가지고 있고 해당 Instance는 각 각의 격리된 Container 환경에서 작동하게 된다. 하나의 Application Instance에서 작성한 File을 다른 Instance에서 관리 및 공유 할 수 없으며 일관적인 File System 상태여야한다.
+- Pivotal Cloud Foundry에서 실행하는 Application은 복수개의 Instance를 가지고 있고 해당 Instance는 각 각의 격리된 Container 환경에서 작동하게 된다. 하나의 Application Instance에서 작성한 File을 다른 Instance에서 관리 및 공유 할 수 없으며 일관적인 File System 상태여야한다.  
 - Application Instance 사이의 공유 방법으로는 Database, Blobstore, S3, NFS, Redis 같은 외부 Service를 통하여 공유한다.
 
 ## 2. Cookies Accessible across Apps
