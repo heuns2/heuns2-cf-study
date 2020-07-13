@@ -12,7 +12,7 @@
 
 ## 1. Pivotal Cloud Foundry Security
 
-- Pivotal Cloud Foundry Security에서 제공하는 Security는 아래와 같다.
+- Pivotal Cloud Foundry Security에서 제공하는 Security는 아래와 같다.  
 	- Application과 Container Data의 분리
 	- 내부 Component의 연결 암호화
 	- 사용자 역할 권한 부여를 통해 Space Access 관리
