@@ -10,7 +10,7 @@
 - 아래 명령어를 통해 Application의 Log를 Streaming한다.
 ```
 $ cf logs YOUR-APP-NAME
-Retrieving logs for app aaa in org system / space dev as admin...
+Retrieving logs for app aaa in org system / space dev as admin...  
 
    2019-06-27T17:39:06.31+0900 [API/0] OUT Updated app with guid 87e439bb-ebbd-4f3c-a3d1-2937bf12ea48 ({"buildpack"=>"timezone_buildpack", "disk_quota"=>1024, "health_check_http_endpoint"=>"", "health_check_type"=>"port", "instances"=>3, "memory"=>768, "name"=>"aaa", "space_guid"=>"f2bccb67-2a32-4053-8361-3df405d49eb2"})
    2019-06-27T17:39:06.75+0900 [API/0] OUT Uploading bits for app with guid 87e439bb-ebbd-4f3c-a3d1-2937bf12ea48
