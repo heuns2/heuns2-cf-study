@@ -26,7 +26,7 @@ $ cf push APP-NAME -p SPRING-BOOT.jar
 
     Creating route my-app-1234.shared-domain.example.com... 
     OK # Route가 생성 된다.  
-
+   
     Binding my-app-1234.shared-domain.example.com to my-app-1234...
     OK # Route와 도메인이 Bind 된다.
 
