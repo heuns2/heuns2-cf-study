@@ -23,7 +23,7 @@
 	- Controller Plane: Pilot를 통해 Data Plane에 위치하고 있는 Envoy가 Micro Service Application의 End Point를 제공해주고 Envoy를 Control, 배치하는 영역이다.
 		- Cloud Controller, BBS를 통해 Micro Service Application의 Route와 Mapping 정보를 Copilot에 전달한다.
 		- Copilot는  전달 받은 Route와 Mapping 정보를 가공하여 Pilot에게 노출한다.
-		- Pilot는 해당 구성 정보를 바탕으로 Istio-Router의 Ingress Envoy를 배치 한다.
+		- Pilot는 해당 구성 정보를 바탕으로 Istio-Router의 Ingress Envoy를 배치 한다.  
 		
 ![service-mesh][servicemesh-image-1]
 
