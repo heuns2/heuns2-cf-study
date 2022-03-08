@@ -17,7 +17,7 @@
 - Route_Emitter는 전달 받은 Application의 경로가 Http/Https 일 경우 NATS Component를 통해 Application의 경로, IP, Port를 Go Router Component에 전달하고 TCP 일 경우 Routing API를 통하여 Application의 경로, IP, Port를 TCP Router Component에 전달한다.
 - Go Router와 TCP Router는 Route_Emitter의 정보를 바탕으로 들어오는 Application 경로 요청을 Back End 주소에 Mapping 시킨다.
 
-![router-architecture][tcp-router-image-1]
+![router-architecture][tcp-router-image-1]  
 
 ### 1.1. External Client Request 흐름
 
