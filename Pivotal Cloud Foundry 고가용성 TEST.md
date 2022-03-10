@@ -3,7 +3,7 @@
 ## 1.1. HA in Pivotal Cloud Foundry
 - Pivotal Cloud Foundry는 Avalibility Zone을 분산 설치하여 플랫폼의 Minor/Major의 Version Upgrade 에 대한 Rolling Update 또는 일부의 Avalibility Zone이 무너졌을 경우에 대비하여 Down Time 없이 Platform Service 가동을 보장 한다.
 
-## 1.2.  HA Pivotal Cloud Foundry 구성
+## 1.2.  HA Pivotal Cloud Foundry 구성  
 
 ### 1.2.1. Pivotal Cloud Foundry HA 구성을 하기 위해서는 아래와 같은 조건이 필요하다.
 
